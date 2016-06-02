@@ -1,0 +1,76 @@
+.paragraph h1 {
+    font-size: 36px;
+    line-height: 50px;
+    padding-top: 10px;
+    color: #d9534f;
+    letter-spacing: 1px;
+}
+
+.paragraph h3 {
+    font-size: 20px;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.paragraph p {
+    font-size: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 35px;
+    color: #888;
+}
+
+.paragraph button {
+    padding: 14px 36px;
+    font-size: 16px;
+}
+
+.col-img img {
+    padding-left: 44px;
+}
+
+/*section header1*/
+
+.header1 h2 {
+    font-size: 36px;
+    color: #d9534f;
+}
+
+.header1 hr {
+    width: 490px;
+    border-color: rgba(0,0,0,.2);
+}
+
+.header1 p {
+    text-align: center;
+    width: 490px;
+    margin: 0 auto;
+    line-height: 26px;
+    color: #888;
+}
+
+/*clothes-pics*/
+
+.img-row {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.img-row img {
+    border: 2px solid rgba(0,0,0,.2);
+    padding: 6px 6px;
+    margin: 0px 4px;
+}
+
+figure {
+    margin-bottom: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.3s ease-in-out;
+}
+
+figure.is-showing {
+    opacity: 1;
+    transform: translateX(0px);
+} 
